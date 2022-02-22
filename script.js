@@ -1,25 +1,28 @@
 const state = {
-  home: 'HOME',
-  characterEditor: 'CHARACTER_EDITOR',
+    home: 'HOME',
+    characterEditor: 'CHARACTER_EDITOR',
 };
 
 let currentState;
+const routerOutlet = document.querySelector('.router-outlet')
 
 function init() {
-  setState('HOME');
+    setState('HOME');
 }
 
 function setState(newState) {
-  switch (newState) {
-    case 'HOME':
-      currentState = state.home;
-      break;
-    case 'CHARACTER_EDITOR':
-      currentState = state.characterEditor;
-      break;
-    default:
-      currentState = state.home;
-      break;
-  }
+    switch (newState) {
+        case 'HOME':
+            currentState = state.home;
+            // routerOutlet.innerHTML = `<home-page></home-page>`
+            routerOutlet.innerHTML = `<character-editor></character-editor>`
+            break;
+        case 'CHARACTER_EDITOR':
+            currentState = state.characterEditor;
+            break;
+        default:
+            currentState = state.home;
+            break;
+    }
 }
 init();

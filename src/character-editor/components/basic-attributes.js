@@ -1,15 +1,15 @@
 const template = document.createElement('template');
-template.innerHTML = `
-<style>
 
-</style>
+template.innerHTML = `
 <div>
-<basic-attributes></basic-attributes>
+<div>
+Strength (ST)
+</div>
     
 </div>
 `;
 
-class CharacterEditor extends HTMLElement {
+class BasicAttributes extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -18,4 +18,4 @@ class CharacterEditor extends HTMLElement {
 
     connectedCallback() {}
 }
-window.customElements.define('character-editor', CharacterEditor);
+window.customElements.define('basic-attributes', BasicAttributes);
