@@ -1,19 +1,30 @@
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <script type="module" src="script.js"></script>
     <script type="module" src="src/home/home.js"></script>
-    <script type="module" src="src/character-editor/character-editor.js"></script>
-    <script type="module" src="src/character-editor/components/basic-attributes.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-</head>
+    <script type="module" src="src/components/page-navbar.js"></script>
+    <script
+      type="module"
+      src="src/character-editor/character-editor.js"
+    ></script>
+    <script
+      type="module"
+      src="src/character-editor/components/basic-attributes.js"
+    ></script>
+    <script
+      type="module"
+      src="src/character-editor/components/attribute-description.js"
+    ></script>
+    <script
+      type="module"
+      src="src/character-editor/components/character-editor-navbar.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-<body>
-    <div class="router-outlet container-fluid">
-
-    </div>
-</body>
-
+  <body>
+    <page-navbar></page-navbar>
+    <div class="router-outlet"></div>
+  </body>
 </html>
