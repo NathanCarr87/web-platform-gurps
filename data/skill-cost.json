@@ -1,0 +1,74 @@
+{
+  "skillCost": [
+    {
+      "level": "Attribute - 3",
+      "easy": "-",
+      "average": "-",
+      "hard": "-",
+      "veryHard": "1"
+    },
+    {
+      "level": "Attribute - 2",
+      "easy": "-",
+      "average": "-",
+      "hard": "1",
+      "veryHard": "2"
+    },
+    {
+      "level": "Attribute - 1",
+      "easy": "-",
+      "average": "1",
+      "hard": "2",
+      "veryHard": "4"
+    },
+    {
+      "level": "Attribute + 0",
+      "easy": "1",
+      "average": "2",
+      "hard": "4",
+      "veryHard": "8"
+    },
+    {
+      "level": "Attribute + 1",
+      "easy": "2",
+      "average": "4",
+      "hard": "8",
+      "veryHard": "12"
+    },
+    {
+      "level": "Attribute + 2",
+      "easy": "4",
+      "average": "8",
+      "hard": "12",
+      "veryHard": "16"
+    },
+    {
+      "level": "Attribute + 3",
+      "easy": "8",
+      "average": "12",
+      "hard": "16",
+      "veryHard": "20"
+    },
+    {
+      "level": "Attribute + 4",
+      "easy": "12",
+      "average": "16",
+      "hard": "20",
+      "veryHard": "24"
+    },
+    {
+      "level": "Attribute + 5",
+      "easy": "16",
+      "average": "20",
+      "hard": "24",
+      "veryHard": "28"
+    },
+    {
+      "level": "Extra + 1",
+      "easy": "+4",
+      "average": "+4",
+      "hard": "+4",
+      "veryHard": "+4"
+    }
+  ]
+}

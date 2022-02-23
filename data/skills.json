@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "name": "Accounting",
+      "description": [],
+      "controllingAttribute": "",
+      "difficulty": "",
+      "defaults": [],
+      "speciality": []
+    },
+    {
+      "name": "",
+      "description": [],
+      "controllingAttribute": "",
+      "difficulty": "",
+      "defaults": [],
+      "speciality": []
+    },
+  ]
+}
