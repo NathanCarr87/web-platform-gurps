@@ -47,7 +47,7 @@ li,  div {
 </ul>
 `;
 
-class CharacterEditorNavbar extends HTMLElement {
+class SecondaryCharacteristics extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -56,4 +56,4 @@ class CharacterEditorNavbar extends HTMLElement {
 
   connectedCallback() {}
 }
-window.customElements.define('character-editor-navbar', CharacterEditorNavbar);
+window.customElements.define('secondary-characteristics', SecondaryCharacteristics);

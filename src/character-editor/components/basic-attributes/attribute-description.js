@@ -65,9 +65,13 @@ class AttributeDescription extends HTMLElement {
   }
 
   updateParagraph(state) {
-    this.specialLimitationsElement.innerHTML = '';
     switch (state) {
       case 'STRENGTH':
+        this.costElement.innerHTML = '';
+        this.descriptionElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+
         this.costElement.innerHTML = strengthDescription.cost;
         this.descriptionElement.innerHTML = strengthDescription.description;
         strengthDescription.specialLimitations.map((limitation) => {
@@ -76,6 +80,11 @@ class AttributeDescription extends HTMLElement {
 
         break;
       case 'DEXTERITY':
+        this.costElement.innerHTML = '';
+        this.descriptionElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+
         this.costElement.innerHTML = dexterityDescription.cost;
         this.descriptionElement.innerHTML = dexterityDescription.description;
         dexterityDescription.specialLimitations.map((limitation) => {
@@ -84,6 +93,11 @@ class AttributeDescription extends HTMLElement {
 
         break;
       case 'INTELLIGENCE':
+        this.costElement.innerHTML = '';
+        this.descriptionElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+
         this.costElement.innerHTML = intelligenceDescription.cost;
         this.descriptionElement.innerHTML = intelligenceDescription.description;
         intelligenceDescription.specialLimitations.map((limitation) => {
@@ -92,6 +106,11 @@ class AttributeDescription extends HTMLElement {
 
         break;
       case 'HEALTH':
+        this.costElement.innerHTML = '';
+        this.descriptionElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+        this.specialLimitationsElement.innerHTML = '';
+
         this.costElement.innerHTML = healthDescription.cost;
         this.descriptionElement.innerHTML = healthDescription.description;
         healthDescription.specialLimitations.map((limitation) => {
@@ -100,9 +119,6 @@ class AttributeDescription extends HTMLElement {
 
         break;
       default:
-        this.costElement.innerHTML = '';
-        this.descriptionElement.innerHTML = '';
-        this.specialLimitationsElement.innerHTML = '';
         break;
     }
   }
